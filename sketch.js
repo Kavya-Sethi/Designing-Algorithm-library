@@ -14,7 +14,7 @@ function setup() {
   object1.shapeColor = "blue";
   object2=createSprite(200,300,50,50);
   object2.shapeColor = "blue";
-  object1.velocityX=2;
+ // object1.velocityX=2;
  edges=createEdgeSprites();
 }
 
@@ -35,5 +35,5 @@ function draw() {
     object2.shapeColor = "green";
   }
 
-bounceOff(object1,movingRect);
+//bounceOff(object1,movingRect);
 }
